@@ -1,0 +1,89 @@
+/* .css-i8koue {
+    overflow: auto hidden;
+    white-space: nowrap;
+    transition: all 0.5s ease 0s;
+    height: 40px;
+}
+.css-1ggnu73 {
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 16px;
+    border: 1px solid rgb(229, 231, 233);
+    background-color: rgb(255, 255, 255);
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+.css-1ans2w0 {
+    background-color: transparent;
+    display: inline-block;
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.css-1ggnu73 > div {
+    float: left;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+.css-1ans2w0 > img.fade.success, .css-1ans2w0 > img.fade.default {
+    opacity: 1;
+}
+.css-1ggnu73 span {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.68);
+    vertical-align: middle;
+} */
+
+._3ZPbXv {
+    margin: 18px auto 8px;
+}
+._1cdYlU {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+._39-Tsj {
+    position: relative;
+}
+._2wBvHJ {
+    height: 100%;
+    border-radius: 0;
+}
+.V1Fpl5 {
+    opacity: 1;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+._2cVHFJ, ._2r6Uk2 {
+    height: 100%;
+}
+.uqouNy {
+    color: #222;
+    letter-spacing: 0;
+    text-align: center;
+}
+._3oKqLJ {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: .8125rem;
+    line-height: .875rem;
+    /* max-width: 150px; */
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    overflow: hidden;
+}

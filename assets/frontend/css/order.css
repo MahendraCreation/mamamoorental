@@ -1,0 +1,339 @@
+.order-detail-header__back-button--arrow {
+    font-size: .875rem;
+    margin-right: .3125rem;
+}
+.order-detail-header__back-button, .order-detail-header__note {
+    right: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    font-size: .875rem;
+    line-height: 1rem;
+}
+.order-detail-header__back-button {
+    display: flex;
+    align-items: center;
+    left: 0.5rem;
+    color: rgba(0,0,0,.54);
+}
+.order-detail-header__state-container {
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 3rem 0rem 1rem;
+}
+.order-content__header__order-sn {
+    font-size: .875rem;
+    line-height: 1rem;
+}
+.order-detail-header__separator {
+    margin: 0 1em;
+}
+.order-detail-header__status {
+    color: #ee4d2d;
+    text-transform: uppercase;
+}
+.shopee-price--original {
+    color: rgba(0,0,0,.26);
+}
+.shopee-price--primary {
+    color: #ee4d2d;
+}
+.order-content__item__price-text {
+    display: flex;
+    flex-direction: column;
+}
+.order-content__item__price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 .625rem;
+    word-wrap: break-word;
+}
+.order-content__item__col--small {
+    width: 8.125rem;
+    word-wrap: break-word;
+    flex: 0 0 auto;
+}
+.order-content__item__col--last {
+    border-right: 0!important;
+}
+.order-content__item__detail, .order-content__item__product {
+    cursor: pointer;
+    user-select: none;
+}
+.order-content__item__detail {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.order-content__item__product {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: .625rem 0;
+}
+.order-content__item__image {
+    width: 5rem;
+    height: 5rem;
+    flex-shrink: 0;
+    margin-right: .75rem;
+}
+.shopee-image__wrapper {
+    position: relative;
+}
+.shopee-image__content, .shopee-image__wrapper {
+    width: 100%;
+    height: 100%;
+}
+.shopee-image__content {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.shopee-image__content--blur {
+    width: 100%;
+    height: 100%;
+}
+.order-content__item__detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    pointer-events: none;
+}
+.order-content__item__name {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: .3125rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    max-height: 2rem;
+}
+
+element.style {
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.order-content__item__detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    pointer-events: none;
+}
+.order-content__item--last {
+    border-bottom: 0;
+}
+.order-content__item {
+    display: flex;
+    flex-wrap: nowrap;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgba(0,0,0,.09);
+}
+.order-content__item-wrapper {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+}
+.order-content__item-list {
+    border-top: 1px solid rgba(0,0,0,.09);
+    color: rgba(0,0,0,.8);
+    font-size: .875rem;
+    line-height: 1.1875rem;
+}
+.order-content__container {
+    color: rgba(0,0,0,.8);
+}
+.order-content__header, .order-content__header__seller {
+    display: flex;
+    align-items: center;
+}
+.order-content__header {
+    justify-content: space-between;
+    margin-bottom: .625rem;
+}
+.order-content-status {
+    color: #ee4d2d;
+    line-height: 1.5rem;
+    text-align: right;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.order-content__header__delivery-status {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding-right: .3125rem;
+}
+.order-delivery-status__desc {
+    vertical-align: middle;
+}
+.order-content__header__delivery-status .icon-free-shipping-line {
+    vertical-align: middle;
+    color: #00bfa5;
+    font-size: 1rem;
+    margin-right: .625rem;
+    stroke: #000;
+}
+.order-content__header__delivery-status {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding-right: .3125rem;
+}
+.order-delivery-status__wrapper {
+    border-right: 1px solid rgba(0,0,0,.12);
+    margin-right: .625rem;
+}
+.order-content__header__flex-placeholder {
+    flex: 1;
+    min-width: .625rem;
+}
+.checkout-card__content, .order-card__content {
+    padding: 1.25rem 1.25rem 0;
+}
+.checkout-card__content-wrapper, .order-card__content-wrapper {
+    background: #fff;
+}
+.checkout-card__container, .order-card__container, .order-detail-header {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: .125rem;
+    overflow: hidden;
+    overflow: visible;
+}
+.order-card__container {
+    border-bottom: none;
+}
+.purchase-card-buttons__wrapper {
+    background: #fffefb;
+    padding: 0 1.5rem;
+}
+.purchase-card-buttons__total-payment {
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.purchase-card-buttons__label-price {
+    color: rgba(0,0,0,.8);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-right: .625rem;
+}
+.purchase-card-buttons__total-price {
+    color: #ee4d2d;
+    font-size: 1.875rem;
+    line-height: 2rem;
+}
+.purchase-card-buttons__container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 1.125rem 0 1.25rem;
+}
+.purchase-card-buttons__text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-grow: 1;
+}
+.purchase-text-info {
+    font-size: .75rem;
+    line-height: .9375rem;
+    word-wrap: break-word;
+    max-width: 25rem;
+    color: rgba(0,0,0,.54);
+}
+.purchase-text-info .shopee-drawer {
+    display: inline-flex;
+}
+.purchase-text-info:nth-child(2) {
+    color: #ee4d2d;
+}
+.purchase-card-buttons__show-button-wrapper {
+    min-width: 10rem;
+    height: 2.5rem;
+    margin-left: .625rem;
+    background: #fff;
+}
+.purchase-card-buttons__show-button-wrapper .shopee-button-outline, .purchase-card-buttons__show-button-wrapper .shopee-button-solid {
+    padding: 0 .625rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.shopee-button-solid--primary {
+    background: #ee4d2d !important;
+}
+.shopee-button-solid--fill {
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.shopee-button-solid {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: background-color .1s cubic-bezier(.4,0,.6,1);
+    transition: background-color .1s cubic-bezier(.4,0,.6,1);
+    position: relative;
+    background: rgba(0,0,0,.54);
+    color: #fff;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+    border-radius: 2px;
+    user-select: none;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.09);
+}
+.shopee-button-outline--fill {
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.shopee-button-outline {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: background-color .1s cubic-bezier(.4,0,.6,1);
+    transition: background-color .1s cubic-bezier(.4,0,.6,1);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 2px;
+    background: transparent;
+    color: rgba(0,0,0,.8);
+}
+.purchase-card-buttons__button-content {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.purchase-list-page__checkout-card-wrapper, .purchase-list-page__order-card-wrapper {
+    margin-bottom: .625rem;
+    margin-top: .75rem;
+}
